@@ -160,3 +160,16 @@ a {
     border-radius: 5px;
     padding: 2px 16px;
 }
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 10px;
+}
+
+.footer .link {
+    color: white;
+}
