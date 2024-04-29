@@ -121,11 +121,42 @@ a {
     font-weight: light;
     color: #1f2937;
     background-color: #e5e7eb;
-    padding: 70px 200px;
+    padding: 70px 250px;
     flex-direction: column;
 }
 
 .author {
     font-size: 25px;
     align-self: flex-end;
+}
+
+.sign-up {
+    display: flex;
+    background-color:#3882F6;
+    margin: 100px 200px;
+    padding: 30px 50px;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+.sign-up .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up .title{
+    color: white;
+}
+
+.sign-up .instruction {
+    color: #e5e7ebcf;
+    font-size: smaller;
+}
+
+.sign-up .button {
+    border: 2px solid white;
+    background-color: #3882F6;
+    color: white;  
+    border-radius: 5px;
+    padding: 2px 16px;
 }
