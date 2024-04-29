@@ -39,7 +39,6 @@ a {
     padding: 100px 200px;
     justify-content: space-between;
     gap: 30px;
-    margin-bottom: 30px;
 }
 
 .hero .container {
@@ -86,6 +85,8 @@ a {
     background-color: white;
     display: flex;
     flex-direction: column;
+    padding: 0px 200px;
+    margin-bottom: 100px;
 }
 
 .information-header {
@@ -95,4 +96,21 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 30px 0px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    color:#00000094;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
 }
