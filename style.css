@@ -38,16 +38,61 @@ a {
     display: flex;
     padding: 100px 200px;
     justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
 }
 
-.hero > .main-text {
+.hero .container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 8px;
+    flex-basis: 100%;
+}
+
+.hero .main-text {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
 }
 
+
+.hero .secondary-text {
+    color: #e5e7ebcf;
+    font-size: 18px;
+}
+
+.sign-up-button {
+    background-color: #3882F6; 
+    color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: 0px;
+    border-radius: 5px;
+}
+
 .placeholder{
+    display: flex;
     color: white;
     background-color: #edf0f47a;
-    padding: 50px 30px;
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.information {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.information-header {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
